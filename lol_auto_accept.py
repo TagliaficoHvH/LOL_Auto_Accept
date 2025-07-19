@@ -25,7 +25,7 @@ from pynput import keyboard
 TEMPLATE_PATH = Path("accept_template.png")  # Screenshot of the Accept button
 CHECK_INTERVAL = 4                            # Seconds between checks
 DEFAULT_HOTKEY = "<f8>"                       # Toggle key (pynput format)
-THRESHOLD = 0.6                               # Template‑matching threshold
+THRESHOLD = 0.5                               # Template‑matching threshold
 
 class AutoAcceptApp:
     def __init__(self):
